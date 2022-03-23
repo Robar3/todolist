@@ -1,4 +1,4 @@
-import {Component, Input} from '@angular/core';
+import {Component,Pipe, PipeTransform} from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -22,11 +22,7 @@ export class AppComponent {
       this.attrbutes = this.hello;
       return;
     }
-
-
   }
-
-
-
-
 }
+
+

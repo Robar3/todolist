@@ -1,0 +1,15 @@
+
+p {
+  font-family: Lato;
+}
+
+.someClass {
+  color: red;
+}
+
+p[text=hello] {
+  color: green;
+}
+p[text=paragraph] {
+  background-color: blue;
+}

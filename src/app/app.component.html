@@ -2,6 +2,9 @@
 
 <button [ngClass]="{someClass:isSomeClass}"(click)="onClick()">Change attr</button>
 
+<p>{{ 24637423.123 | FormatPipe:'ru-RU' }}</p>
+<p>{{ 24637423.123 | FormatPipe:'en-US' }}</p>
+
 <app-card
   cardName="some card name"
   cardNumber="0010000000000400"
